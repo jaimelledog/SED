@@ -48,19 +48,22 @@ PORT(
 );
 END COMPONENT;
 
+signal cuenta_aux : STD_LOGIC_VECTOR (3 DOWNTO 0);
+
 begin
 	inst_counter4bits: counter4bits port map(
 		clk=>clk,
 		add=>'1',
 		data=>"0000",--empieza en 0
-		cuenta=>secuencia_bot(3 DOWNTO 0)
+		cuenta=>cuenta_aux(3 DOWNTO 0)
 	);
-	process begin
+	process (clk)begin
 		if man_fin='0' then
 		
 		elsif detector_llamada='0' then
-			piso_llamado<=secuencia_bot;
+			piso_llamado<=cuenta_aux;
 		end if;
+	secuencia_bot<=cuenta_aux;
 	end process;
 end Behavioral;
 

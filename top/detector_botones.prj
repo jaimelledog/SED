@@ -1,0 +1,2 @@
+vhdl work "../counter/counter.vhd"
+vhdl work "../detector_botones/detector_botones.vhd"

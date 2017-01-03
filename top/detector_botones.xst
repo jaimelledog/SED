@@ -1,0 +1,5 @@
+set -tmpdir "D:/Xilinx/14.7/ISE_DS/Proyectos/top/xst/projnav.tmp"
+set -xsthdpdir "D:/Xilinx/14.7/ISE_DS/Proyectos/top/xst"
+elaborate
+-ifn detector_botones.prj
+-ifmt mixed

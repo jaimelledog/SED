@@ -21,7 +21,25 @@
 
   <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="top.xise"/>
 
-  <files xmlns="http://www.xilinx.com/XMLSchema"/>
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_LSO" xil_pn:name=".lso"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="conversor_numeracion.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="conversor_numeracion.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="conversor_numeracion.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="counter4bits.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="counter4bits.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="counter4bits.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="detector_botones.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="detector_botones.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="detector_botones.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="leds.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="leds.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="leds.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="top.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="top.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="top.xst"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
 
   <transforms xmlns="http://www.xilinx.com/XMLSchema"/>
 

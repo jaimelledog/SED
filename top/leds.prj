@@ -1,0 +1,3 @@
+vhdl work "../counter/counter.vhd"
+vhdl work "../conversor_numeracion/conversor_numeracion.vhd"
+vhdl work "../leds/leds.vhd"

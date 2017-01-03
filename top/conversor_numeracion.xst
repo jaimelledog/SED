@@ -1,0 +1,5 @@
+set -tmpdir "D:/Xilinx/14.7/ISE_DS/Proyectos/top/xst/projnav.tmp"
+set -xsthdpdir "D:/Xilinx/14.7/ISE_DS/Proyectos/top/xst"
+elaborate
+-ifn conversor_numeracion.prj
+-ifmt mixed

@@ -47,6 +47,7 @@ with data_in select
 					"1001" when "0011",
 					"1100" when "0010",
 					"1100" when "0001",
-					"1111" when "0000";
+					"1111" when "0000",
+					"0001" when others;
 end architecture Dataflow;
 

@@ -1,0 +1,7 @@
+vhdl work "D:\Xilinx\14.7\ISE_DS\Proyectos\counter\counter.vhd"
+vhdl work "D:\Xilinx\14.7\ISE_DS\Proyectos\conversor_numeracion\conversor_numeracion.vhd"
+vhdl work "D:\Xilinx\14.7\ISE_DS\Proyectos\logica_pisos\logica_pisos.vhd"
+vhdl work "D:\Xilinx\14.7\ISE_DS\Proyectos\leds\leds.vhd"
+vhdl work "D:\Xilinx\14.7\ISE_DS\Proyectos\detector_botones\detector_botones.vhd"
+vhdl work "D:\Xilinx\14.7\ISE_DS\Proyectos\clk_gen\clk_gen.vhd"
+vhdl work "D:\Xilinx\14.7\ISE_DS\Proyectos\top\top.vhd"

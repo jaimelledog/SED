@@ -1,0 +1,45 @@
+V3 27
+FL D:/Xilinx/14.7/ISE_DS/Proyectos/clk_gen/clk_gen.vhd 2017/01/03.13:59:23 P.20131013
+EN work/clk_gen 1483465832 FL D:/Xilinx/14.7/ISE_DS/Proyectos/clk_gen/clk_gen.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/clk_gen/Behavioral 1483465833 \
+      FL D:/Xilinx/14.7/ISE_DS/Proyectos/clk_gen/clk_gen.vhd EN work/clk_gen 1483465832
+FL D:/Xilinx/14.7/ISE_DS/Proyectos/conversor_numeracion/conversor_numeracion.vhd 2017/01/03.18:37:29 P.20131013
+EN work/conversor_numeracion 1483465830 \
+      FL D:/Xilinx/14.7/ISE_DS/Proyectos/conversor_numeracion/conversor_numeracion.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/conversor_numeracion/Dataflow 1483465831 \
+      FL D:/Xilinx/14.7/ISE_DS/Proyectos/conversor_numeracion/conversor_numeracion.vhd \
+      EN work/conversor_numeracion 1483465830
+FL D:/Xilinx/14.7/ISE_DS/Proyectos/counter/counter.vhd 2017/01/03.18:35:00 P.20131013
+EN work/counter4bits 1483465828 \
+      FL D:/Xilinx/14.7/ISE_DS/Proyectos/counter/counter.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/counter4bits/Behavioral 1483465829 \
+      FL D:/Xilinx/14.7/ISE_DS/Proyectos/counter/counter.vhd EN work/counter4bits 1483465828
+FL D:/Xilinx/14.7/ISE_DS/Proyectos/detector_botones/detector_botones.vhd 2017/01/03.18:41:26 P.20131013
+EN work/detector_botones 1483465834 \
+      FL D:/Xilinx/14.7/ISE_DS/Proyectos/detector_botones/detector_botones.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/detector_botones/Behavioral 1483465835 \
+      FL D:/Xilinx/14.7/ISE_DS/Proyectos/detector_botones/detector_botones.vhd \
+      EN work/detector_botones 1483465834 CP counter4bits
+FL D:/Xilinx/14.7/ISE_DS/Proyectos/leds/leds.vhd 2017/01/03.18:43:53 P.20131013
+EN work/leds 1483465838 FL D:/Xilinx/14.7/ISE_DS/Proyectos/leds/leds.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/leds/Behavioral 1483465839 \
+      FL D:/Xilinx/14.7/ISE_DS/Proyectos/leds/leds.vhd EN work/leds 1483465838 \
+      CP counter4bits CP conversor_numeracion
+FL D:/Xilinx/14.7/ISE_DS/Proyectos/logica_pisos/logica_pisos.vhd 2016/12/30.16:16:57 P.20131013
+EN work/logica_pisos 1483465836 \
+      FL D:/Xilinx/14.7/ISE_DS/Proyectos/logica_pisos/logica_pisos.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/logica_pisos/Behavioral 1483465837 \
+      FL D:/Xilinx/14.7/ISE_DS/Proyectos/logica_pisos/logica_pisos.vhd \
+      EN work/logica_pisos 1483465836
+FL D:/Xilinx/14.7/ISE_DS/Proyectos/top/top.vhd 2017/01/03.18:50:25 P.20131013
+EN work/top 1483465840 FL D:/Xilinx/14.7/ISE_DS/Proyectos/top/top.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/top/Behavioral 1483465841 \
+      FL D:/Xilinx/14.7/ISE_DS/Proyectos/top/top.vhd EN work/top 1483465840 \
+      CP clk_gen CP detector_botones CP logica_pisos CP leds

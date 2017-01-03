@@ -1,0 +1,47 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to D:/Xilinx/14.7/ISE_DS/Proyectos/top/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Parameter xsthdpdir set to D:/Xilinx/14.7/ISE_DS/Proyectos/top/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "D:/Xilinx/14.7/ISE_DS/Proyectos/counter/counter.vhd" in Library work.
+Architecture behavioral of Entity counter4bits is up to date.
+Compiling vhdl file "D:/Xilinx/14.7/ISE_DS/Proyectos/conversor_numeracion/conversor_numeracion.vhd" in Library work.
+Architecture dataflow of Entity conversor_numeracion is up to date.
+Compiling vhdl file "D:/Xilinx/14.7/ISE_DS/Proyectos/clk_gen/clk_gen.vhd" in Library work.
+Architecture behavioral of Entity clk_gen is up to date.
+Compiling vhdl file "D:/Xilinx/14.7/ISE_DS/Proyectos/detector_botones/detector_botones.vhd" in Library work.
+Architecture behavioral of Entity detector_botones is up to date.
+Compiling vhdl file "D:/Xilinx/14.7/ISE_DS/Proyectos/logica_pisos/logica_pisos.vhd" in Library work.
+Architecture behavioral of Entity logica_pisos is up to date.
+Compiling vhdl file "D:/Xilinx/14.7/ISE_DS/Proyectos/leds/leds.vhd" in Library work.
+Architecture behavioral of Entity leds is up to date.
+Compiling vhdl file "D:/Xilinx/14.7/ISE_DS/Proyectos/top/top.vhd" in Library work.
+Entity <top> compiled.
+Entity <top> (Architecture <behavioral>) compiled.
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.16 secs
+ 
+--> 
+
+Total memory usage is 214620 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

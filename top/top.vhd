@@ -93,13 +93,13 @@ begin
 inst_clk_bot : clk_gen port map(
 	clk=>clk,
 	clk_mod=>clk_mod_bot,
-	divide_module=>100
+	divide_value=>100
 );
 
 inst_clk_leds : clk_gen port map(
 	clk=>clk,
 	clk_mod=>clk_mod_leds,
-	divide_module=>50000000
+	divide_value=>50000000
 );
 
 inst_det_bot : detector_botones port map(

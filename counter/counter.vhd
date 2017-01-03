@@ -19,6 +19,8 @@
 ----------------------------------------------------------------------------------
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
+use ieee.numeric_std.all;
+
 
 -- Uncomment the following library declaration if using
 -- arithmetic functions with Signed or Unsigned values
@@ -52,13 +54,13 @@ begin
 			if cuenta_temp="1111" then --condiciones para volver a empezar a contar si se rebasa el límite
 				cuenta_temp<="0000";
 			elsif rising_edge(clk) then
-				cuenta_temp<=cuenta_temp+1;
+				cuenta_temp<=std_logic_vector( unsigned(cuenta_temp) + 1 );
 			end if;
 		elsif add='0' then --condiciones si el contador resta
 			if cuenta_temp="0000" then --condiciones para volver a empezar a contar si se rebasa el límite
 				cuenta_temp<="1111";
 			elsif rising_edge(clk) then
-				cuenta_temp<=cuenta_temp-1;
+				cuenta_temp<=std_logic_vector( unsigned(cuenta_temp) + 1 );
 			end if;
 		end if;
 	end process;

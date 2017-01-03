@@ -91,15 +91,15 @@ begin
 process(piso_destino,clk) begin
 	if piso_movil = piso_destino_aux then
 		leds_piso<=piso_destino_aux;
-		man_fin:='1'; --cuando piso_movil y piso_destino_aux son iguales, acaba la maniobra y puede empezar otra
+		man_fin<='1'; --cuando piso_movil y piso_destino_aux son iguales, acaba la maniobra y puede empezar otra
 	elsif subir='1' then --condiciones si el ascensor sube
 		while (piso_movil) < (piso_destino_aux) loop
-			man_fin:='0';
+			man_fin<='0';
 			leds_piso<=piso_movil;
 		end loop;
 	elsif subir='0' then --condiciones si el ascensor baja
 		while (piso_movil) > (piso_destino_aux) loop
-			man_fin:='0';
+			man_fin<='0';
 			leds_piso<=piso_movil;
 		end loop;
 	end if;

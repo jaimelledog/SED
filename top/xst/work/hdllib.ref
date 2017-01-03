@@ -1,0 +1,14 @@
+EN counter4bits NULL D:/Xilinx/14.7/ISE_DS/Proyectos/counter/counter.vhd sub00/vhpl00 1483465828
+AR clk_gen behavioral D:/Xilinx/14.7/ISE_DS/Proyectos/clk_gen/clk_gen.vhd sub00/vhpl05 1483465833
+AR counter4bits behavioral D:/Xilinx/14.7/ISE_DS/Proyectos/counter/counter.vhd sub00/vhpl01 1483465829
+EN clk_gen NULL D:/Xilinx/14.7/ISE_DS/Proyectos/clk_gen/clk_gen.vhd sub00/vhpl04 1483465832
+AR leds behavioral D:/Xilinx/14.7/ISE_DS/Proyectos/leds/leds.vhd sub00/vhpl11 1483465839
+EN leds NULL D:/Xilinx/14.7/ISE_DS/Proyectos/leds/leds.vhd sub00/vhpl10 1483465838
+EN conversor_numeracion NULL D:/Xilinx/14.7/ISE_DS/Proyectos/conversor_numeracion/conversor_numeracion.vhd sub00/vhpl02 1483465830
+AR detector_botones behavioral D:/Xilinx/14.7/ISE_DS/Proyectos/detector_botones/detector_botones.vhd sub00/vhpl07 1483465835
+AR conversor_numeracion dataflow D:/Xilinx/14.7/ISE_DS/Proyectos/conversor_numeracion/conversor_numeracion.vhd sub00/vhpl03 1483465831
+EN detector_botones NULL D:/Xilinx/14.7/ISE_DS/Proyectos/detector_botones/detector_botones.vhd sub00/vhpl06 1483465834
+EN top NULL D:/Xilinx/14.7/ISE_DS/Proyectos/top/top.vhd sub00/vhpl12 1483465840
+AR logica_pisos behavioral D:/Xilinx/14.7/ISE_DS/Proyectos/logica_pisos/logica_pisos.vhd sub00/vhpl09 1483465837
+AR top behavioral D:/Xilinx/14.7/ISE_DS/Proyectos/top/top.vhd sub00/vhpl13 1483465841
+EN logica_pisos NULL D:/Xilinx/14.7/ISE_DS/Proyectos/logica_pisos/logica_pisos.vhd sub00/vhpl08 1483465836
